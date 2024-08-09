@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
     </div>
   </section>
-  {'{'}/* {/* Section 2 */} */{'}'}
+  
   <section className="text-gray-700 bg-black body-font">
     <div className="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
       <a href="#_" className="text-xl font-black leading-none text-white select-none logo">Hepta<span className="text-indigo-600">.</span></a>
