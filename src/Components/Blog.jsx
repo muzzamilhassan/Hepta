@@ -4,11 +4,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
-const Blog = () => {
+const Blog = ({bgcolor,title}) => {
   return (
-    <div className="bg-[#65C0BA] space-y-10 py-10">
+    <div className={`${bgcolor} space-y-10 py-10`}>
       <div className="text-center px-10 md:px-28 lg:px-72 space-y-4">
-        <h1 className="text-4xl font-bold">Recent Blog Post</h1>
+        <h1 className="text-4xl font-bold">{title}</h1>
         <p className="text-lg">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
           quibusdam libero minus quis eos. Culpa ex, nihil nostrum fugit,

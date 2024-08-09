@@ -1,12 +1,12 @@
 import React from "react";
 import Rating from '@mui/material/Rating';
 
-const TopDestinations = () => {
+const TopDestinations = ({title,teamName}) => {
   const [value, setValue] = React.useState(2);
   return (
     <div className="my-20">
       <div className="text-center px-10 md:px-28 lg:px-72 space-y-4">
-        <h1 className="text-4xl font-bold">Top Destination</h1>
+        <h1 className="text-4xl font-bold">{title}</h1>
         <p className="text-lg">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
           quibusdam libero minus quis eos. Culpa ex, nihil nostrum fugit,
@@ -31,6 +31,7 @@ const TopDestinations = () => {
         <div>
           <img src="/public/images/slider-3.jpg.webp" alt="" />
           <h1>Resort & Spa</h1>
+          {/* <h1>{teamName}</h1> */}
         
           <Rating
             name="simple-controlled"

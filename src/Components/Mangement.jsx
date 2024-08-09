@@ -10,9 +10,9 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
 
-const Mangement = () => {
+const Mangement = ({bgcolor}) => {
   return (
-    <div className=" bg-[#65C0BA] h-96 md:h-auto overflow-hidden">
+    <div className={` ${bgcolor} h-96 md:h-auto overflow-hidden`}>
       <div className="mx-16">
         <Swiper
           pagination={{

@@ -9,11 +9,11 @@ const Resturents = () => {
   return (
     <div>
    
-      <Hero  image='/images/slider-2.jpg.webp' title={'Our Hotel'}/>
+      <Hero  image={'/images/img_1_long.jpg.webp'} title={'Our Hotel'}/>
         <Experinceonce/>
-        <Welcome/>
+        <Welcome image="/images/hero_1.jpg.webp" title="Family Room" buttontext='Learn more'/>
         <Mangement/>
-        <Blog/>
+        <Blog title='More Hotels Features'/>
         <Footer/>
     </div>
   );
