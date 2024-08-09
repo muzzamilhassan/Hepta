@@ -16,7 +16,7 @@ const TopDestinations = ({title,teamName}) => {
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-20 my-10 text-xl font-bold">
         <div>
-          <img src="/public/images/slider-2.jpg.webp" alt="" />
+          <img src="/images/slider-2.jpg.webp" alt="" />
           <h1>Food & Wines</h1>
          
           <Rating
@@ -29,7 +29,7 @@ const TopDestinations = ({title,teamName}) => {
           />
         </div>
         <div>
-          <img src="/public/images/slider-3.jpg.webp" alt="" />
+          <img src="/images/slider-3.jpg.webp" alt="" />
           <h1>Resort & Spa</h1>
           {/* <h1>{teamName}</h1> */}
         
@@ -43,7 +43,7 @@ const TopDestinations = ({title,teamName}) => {
           />
         </div>
         <div>
-          <img src="/public/images/slider-4.jpg.webp" alt="" />
+          <img src="/images/slider-4.jpg.webp" alt="" />
           <h1>Hotel Rooms</h1>
       
           <Rating
@@ -56,7 +56,7 @@ const TopDestinations = ({title,teamName}) => {
           />
         </div>
         <div>
-          <img src="/public/images/slider-5.jpg.webp" alt="" />
+          <img src="/images/slider-5.jpg.webp" alt="" />
           <h1>Mountain Climbing</h1>
         
           <Rating

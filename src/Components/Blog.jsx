@@ -18,21 +18,21 @@ const Blog = ({bgcolor,title}) => {
       </div>
       <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-4 py-4 px-20">
         <div className="border bg-white">
-          <img src="\public\images\slider-4.jpg.webp" alt="" />
+          <img src="\images\slider-4.jpg.webp" alt="" />
           <div>
             <p className="text-gray-500 pl-11 pt-4">February 26, 2018</p>
             <Expericeone title="45 Best Places To Unwind" />
           </div>
         </div>
         <div className="border bg-white">
-          <img src="\public\images\slider-5.jpg.webp" alt="" />
+          <img src="\images\slider-5.jpg.webp" alt="" />
           <div>
             <p className="text-gray-500 pl-11 pt-4">February 26, 2018</p>
             <Expericeone title="45 Best Places To Unwind" />
           </div>
         </div>
         <div className="border bg-white">
-          <img src="\public\images\slider-6.jpg.webp" alt="" />
+          <img src="\images\slider-6.jpg.webp" alt="" />
           <div>
             <p className="text-gray-500 pl-11 pt-4">February 26, 2018</p>
             <Expericeone title="45 Best Places To Unwind" />

@@ -17,12 +17,12 @@ const Experinceonce = () => {
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 items-center m-20">
    
-        <Expericeone title='Good Foods' src="/public/images/001-breakfast.svg" text="text-center" center='items-center'/>
-        <Expericeone title='Travel Anywhere ' src="\public\images\002-planet-earth.svg" text="text-center" center='items-center'/>
-        <Expericeone title='Airplane ' src="/public/images/001-breakfast.svg" text="text-center" center='items-center'/>
-        <Expericeone title='Beach Resort ' src="/public/images/001-breakfast.svg" text="text-center" center='items-center'/>
-        <Expericeone title='Mountain Climbing ' src="/public/images/001-breakfast.svg" text="text-center" center='items-center'/>
-        <Expericeone title='Hot Air Balloon ' src="/public/images/001-breakfast.svg" text="text-center" center='items-center'/>
+        <Expericeone title='Good Foods' src="/images/001-breakfast.svg" text="text-center" center='items-center'/>
+        <Expericeone title='Travel Anywhere ' src="\images\002-planet-earth.svg" text="text-center" center='items-center'/>
+        <Expericeone title='Airplane ' src="/images/001-breakfast.svg" text="text-center" center='items-center'/>
+        <Expericeone title='Beach Resort ' src="/images/001-breakfast.svg" text="text-center" center='items-center'/>
+        <Expericeone title='Mountain Climbing ' src="/images/001-breakfast.svg" text="text-center" center='items-center'/>
+        <Expericeone title='Hot Air Balloon ' src="/images/001-breakfast.svg" text="text-center" center='items-center'/>
         
       </div>
     </div>

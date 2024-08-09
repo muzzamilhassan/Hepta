@@ -23,12 +23,12 @@ const Mangement = ({bgcolor}) => {
           modules={[Pagination]}
           className="mySwiper w-full h-screen"
         >
-          <SwiperSlide><img src="/public/images/slider-2.jpg.webp" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/public/images/slider-3.jpg.webp" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/public/images/slider-4.jpg.webp" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/public/images/slider-5.jpg.webp" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/public/images/slider-6.jpg.webp" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="/public/images/slider-2.jpg.webp" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="/images/slider-2.jpg.webp" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="/images/slider-3.jpg.webp" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="/images/slider-4.jpg.webp" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="/images/slider-5.jpg.webp" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="/images/slider-6.jpg.webp" alt="" /></SwiperSlide>
+          <SwiperSlide><img src="/images/slider-2.jpg.webp" alt="" /></SwiperSlide>
           
         </Swiper>
       </div>

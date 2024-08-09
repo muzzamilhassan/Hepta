@@ -11,7 +11,7 @@ const Reviews = () => {
         <div>
           <div>
             <Expericeone
-              src="\public\images\person_1.jpg.webp"
+              src="\images\person_1.jpg.webp"
               italic="italic"
             />
           </div>
@@ -19,7 +19,7 @@ const Reviews = () => {
         <div>
           <div>
             <Expericeone
-              src="\public\images\person_2.jpg.webp"
+              src="\images\person_2.jpg.webp"
               italic="italic"
             />
           </div>
@@ -27,7 +27,7 @@ const Reviews = () => {
         <div>
           <div>
             <Expericeone
-              src="\public\images\person_3.jpg.webp"
+              src="\images\person_3.jpg.webp"
               italic="italic"
             />
           </div>
