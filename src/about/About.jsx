@@ -11,8 +11,8 @@ const About = () => {
         <Hero  image='/images/slider-3.jpg.webp' title={'About us'}/>
         <Welcome image={'/images/hero_1.jpg.webp'} buttontext={'Learn more'} title={'Welcome Travel & Tours'}/>
         <div className='text-center space-y-4 pt-10'>
-            <h1 className='text-7xl'>Hotel Gallery</h1>
-            <p className='px-72 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat, laudantium esse unde omnis porro cumque odit, aut illum hic odio dicta molestiae eaque fuga voluptates! Et amet quia quod!</p>
+            <h1 className='text-center text-5xl md:text-7xl font-semibold'>Hotel Gallery</h1>
+            <p className=' px-20 md:px-32 text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat, laudantium esse unde omnis porro cumque odit, aut illum hic odio dicta molestiae eaque fuga voluptates! Et amet quia quod!</p>
             <Mangement/>
             </div>
             <TopDestinations title='Our Team'/>
